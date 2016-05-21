@@ -1,0 +1,2 @@
+# ObjectFileSys
+Object storage (also known as object-based storage is a storage architecture that manages data as objects, as opposed to other storage architectures like file systems which manage data as a file hierarchy. OS has a lot of benefits such as performance, but in order to support a lot of legacy applications, a file system interface is a must. I have done a few such work. According to my experience, it is feasible to implement such a driver for typical OS systems, such as  EMC Atmos, OpenStack Swift, Scality RING, Caringo Swarm, OpenIO and DDN WOS.
