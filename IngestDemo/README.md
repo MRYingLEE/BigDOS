@@ -6,7 +6,9 @@ Although it is convenient to use FILE API to ingest files, a better method is to
 
 ##The advantage includes:
   to break the limit of OS system for not all OS system have streaming API, which is definitely needed by traditional FILE API;
+  
   to maximum the speed, which could be dozens speed of the FILE API;
+  
   to implement application logic beyond FILE system.
 
 ##Demo
