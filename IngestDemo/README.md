@@ -12,6 +12,12 @@ Although it is convenient to use FILE API to ingest files, a better method is to
   to implement application logic beyond FILE system.
 
 ##Demo
-Here is a demo to do so. This demo is based on a demo of DDN.
+Here is a demo to do so. This JAVA Program ingests a directory and all subdirectories into WOS (file) and Cassandra (metadata).
 
 The source code is at ALPHA stage. You may use it at your own risk. So don't use it in your production environment.
+
+## Usage
+  java Ingest  <root of path to ingest> <WOS cluster IP addr> <policy> <Cassandra cluster IP addr>
+ 
+ EXAMPLE
+  %  java -classpath wosjava.jar:. Ingest /home/me/myfiles 10.11.0.1 replicate 10.11.0.2
