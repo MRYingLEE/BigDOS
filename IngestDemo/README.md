@@ -17,7 +17,7 @@ Here is a demo to do so. This JAVA Program ingests a directory and all subdirect
 The source code is at ALPHA stage. You may use it at your own risk. So don't use it in your production environment.
 
 ## Usage
-  java Ingest <<root of path to ingest>> <<WOS cluster IP addr>> <<policy>> <<Cassandra cluster IP addr>>
+  java Ingest root_of_path_to_ingest WOS_cluster_IP_addr policy Cassandra_cluster_IP_addr
  
  EXAMPLE
   %  java -classpath wosjava.jar:. Ingest /home/me/myfiles 10.11.0.1 replicate 10.11.0.2
