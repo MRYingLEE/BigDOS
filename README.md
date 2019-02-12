@@ -4,7 +4,7 @@ Besides the operating system file system interfaces, it is convenient and must t
 
 In short, BigDOS is a Decentralized File System for Unstructured Big Data. The Linux file system driver is developed by c++. The driver uses Cassandra for file profile and uses an Object Storage System for file contents. BigDOS.pdf is the Product Whitepaper. 
 
-## Metadata Server
+## Metadata Server <font color="red">Implemented</font>
 It is critical to design metadata server. There are a few options to choose, such as RDBMS (such as MySQL), NonSQL DB (such as Cassandra), even an existing file system.
 Following the choice of platform, the most important non-function feature is performance, due to the possible high frequency file operations.
 
