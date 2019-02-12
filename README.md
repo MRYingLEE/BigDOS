@@ -238,5 +238,7 @@ It is convenient to use DOKAN (https://github.com/dokan-dev/dokany) or CBFS(http
 ## Apache Spark/ Hadoop platform
 It is convenient to use JAVA to develop Apache Spark/ Hadoop compatible file system. And it is worth to point that the source code of Hadoop provides a few good examples on Hadoop compatible file system.
 
+WosFS-for-Spark is the implementation. WOS-FS is Hadoop File System Compatible. WOS-FS brings WOS of DDN.com to Apache Spark cosystem. The github repositories can be found at https://github.com/MRYingLEE/WosFS-for-Spark.
+
 ## Language Choice
 For Linux/ Windows platform file system interfaces are part of the operating system, it is natual to use C++ to develop for the performance reason. Also, the available file system SDKs mainly focuses on C++ examples.
