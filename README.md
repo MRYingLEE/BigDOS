@@ -4,7 +4,7 @@ Besides the operating system file system interfaces, it is convenient and must t
 
 In short, BigDOS is a Decentralized File System for Unstructured Big Data. The Linux file system driver is developed by c++. The driver uses Cassandra for file profile and uses an Object Storage System for file contents. BigDOS.pdf is the Product Whitepaper. 
 
-## Metadata Server <font color="red">Implemented</font>
+## Metadata Server (Implemented)
 It is critical to design metadata server. There are a few options to choose, such as RDBMS (such as MySQL), NonSQL DB (such as Cassandra), even an existing file system.
 Following the choice of platform, the most important non-function feature is performance, due to the possible high frequency file operations.
 
@@ -86,7 +86,7 @@ insert into BigDOS_sys.BigDOS_groups (groupid, displayname,members, membernames 
 values (10001,'Common users',{10001},{'shenzhen'});
 ```
 
-## Linux platform <Implemented>
+## Linux platform (Implemented)
 It is convenient to use FUSE (https://github.com/libfuse/libfuse) to develop Linux specific file system.
 
 ### The Used Libs 
@@ -232,10 +232,10 @@ It is convenient to use FUSE (https://github.com/libfuse/libfuse) to develop Lin
 
 ```
 
-## Windows platform  <NOT Implemented>
+## Windows platform  (NOT Implemented)
 It is convenient to use DOKAN (https://github.com/dokan-dev/dokany) or CBFS(https://www.eldos.com/cbfs/) to develop Windows specific file system.
 
-## Apache Spark/ Hadoop platform  <Implemented>
+## Apache Spark/ Hadoop platform  (Implemented)
 It is convenient to use JAVA to develop Apache Spark/ Hadoop compatible file system. And it is worth to point that the source code of Hadoop provides a few good examples on Hadoop compatible file system.
 
 WosFS-for-Spark is the implementation. WOS-FS is Hadoop File System Compatible. WOS-FS brings WOS of DDN.com to Apache Spark cosystem. The github repositories can be found at https://github.com/MRYingLEE/WosFS-for-Spark.
