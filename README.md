@@ -1,8 +1,8 @@
-# ObjectFileSys
+# BigDOS
 Object-based storage(OBS) manages data as objects, as opposed to other storage architectures like file systems which manage data as a file hierarchy. OBS has a lot of benefits such as performance, but in order to support a lot of legacy applications, a file system interface is a must. I have done a few such work. According to my experience, it is feasible to implement such a driver for typical OS systems, such as EMC Atmos, OpenStack Swift, Scality RING, Caringo Swarm, OpenIO and DDN WOS. 
 Besides the operating system file system interfaces, it is convenient and must to have a Hadoop File System compatible interface for Apache Spark/Hadoop to analyze unstructured data in OBS.
 
-## BigDOS.pdf is the Product Whitepaper
+BigDOS.pdf is the Product Whitepaper. In short, BigDOS is a Decentralized File System for Unstructured Big Data. The Linux file system driver is developed by c++. The driver uses Cassandra for file profile and uses an Object Storage System for file contents.
 
 ## Metadata Server
 It is critical to design metadata server. There are a few options to choose, such as RDBMS (such as MySQL), NonSQL DB (such as Cassandra), even an existing file system.
